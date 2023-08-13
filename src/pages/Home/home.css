@@ -1,0 +1,23 @@
+img {
+  width: 120px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.productWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.productCard {
+  box-shadow: 0 0 3px 3px #eee;
+}
+
+.productText {
+  padding: 5px;
+}
+
+.cardRoot {
+  width: 160px;
+}

@@ -1,0 +1,17 @@
+.cartRoot {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid grey;
+  margin: 10px;
+  padding: 5px;
+  width: 100%;
+}
+.cartRoot img {
+  width: 100px;
+}
+
+.removeIcon {
+  margin-left: auto;
+  cursor: pointer;
+}
